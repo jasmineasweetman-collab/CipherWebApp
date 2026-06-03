@@ -1,0 +1,93 @@
+body
+{
+    max-width:600px;
+    min-height:100vh;
+    background-color:#E8DABA;
+    color:#1E3B19;
+    font-family:"Courier New",monospace;
+    padding:32px;
+    margin:0 auto;
+}
+{
+    font-size:20px;
+    text-align:center;
+    letter-spacing:3px;
+    text-transform:uppercase;
+    border-bottom:2px solid #1E3B19;
+    padding-bottom:10px;
+    margin-bottom:16px;
+}
+input,textarea,select
+{
+    background-color:#f0e6c8;
+    color:#1E3B19;
+    border:1px solid #1E3B19;
+    font-family:"Courier New",monospace;
+    font-size:13px;
+    padding:6px;
+    width:100%;
+    box-sizing:border-box;
+    margin-top:4px;
+}
+button
+{
+    background-color:#1E3B19;
+    color:#E8DABA;
+    border:none;
+    padding:8px 20px;
+    font-family:"Courier New",monospace;
+    font-size:13px;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    cursor:pointer;
+    margin:8px 4px;
+}
+button:hover
+{
+    background-color:#2d5a27;
+}
+button.secondary
+{
+    background-color:transparent;
+    color:#1E3B19;
+    border:1px solid #1E3B19;
+    padding:4px 10px;
+    font-size:10px;
+}
+button.secondary:hover
+{
+    background-color:#1E3B19;
+    color:#E8DABA;
+}
+#outputContainer
+{
+    position:relative;
+}
+#copyIcon
+{
+    position:absolute;
+    top:6px;
+    right:6px;
+    cursor:pointer;
+    opacity:0.7;
+}
+#copyIcon:hover
+{
+    opacity:1;
+}
+#copyright
+{
+    text-align:center;
+    font-size:10px;
+    letter-spacing:1px;
+    margin-top:16px;
+    opacity:0.7;
+}
+label,p
+{
+    font-size:13px;
+    letter-spacing:1px;
+    text-transform:uppercase;
+    margin-bottom:4px;
+    display:block;
+}
